@@ -1,6 +1,7 @@
 import os
 
 MAPBOX_API_KEY = os.getenv('MAPBOX_API_KEY', '')
+print('MAPBOX_API_KEY is %s' % MAPBOX_API_KEY)
 CACHE_CONFIG = {
     'CACHE_TYPE': 'redis',
     'CACHE_DEFAULT_TIMEOUT': 300,
